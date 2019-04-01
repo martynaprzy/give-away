@@ -1,0 +1,278 @@
+body {
+    background: whitesmoke;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+/*login*/
+.login {
+    /*margin-top: 6px;*/
+    display: flex;
+    justify-content: flex-end;
+}
+div.big-box {
+    width: 100%;
+    height: 100%;
+}
+div.img-box {
+    background-image: url("./images/header_start_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+button.login {
+    padding: 8px 20px;
+    color: #444444;
+    border-radius: 6px;
+    border: 1px solid darkgrey;
+    background-color: whitesmoke;
+    margin: 6px;
+
+}
+/*nav*/
+nav {
+    /*margin-top: 5px;*/
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: #444444;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 1px;
+}
+nav a.active {
+    border: 1px solid darkgrey;
+}
+div.main-box {
+    padding: 200px 10px;
+    width: 50%;
+    height: 80%;
+    float: right;
+    text-align: center;
+}
+img.decor {
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    display: block;
+}
+div.buttons-big {
+    margin: 10%;
+}
+button.button-big {
+    padding: 20px;
+    margin: 8px;
+    border-radius: 8px;
+}
+/*yellow banner */
+div.yellow-boxes {
+    display: flex;
+    justify-content: space-around;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 4%;
+}
+div.yellow-box {
+    width: 20%;
+    text-align: center;
+}
+/*steps*/
+div.steps-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2em;
+    height: auto;
+}
+div.inner-box {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    background-color: lightgray;
+    border-radius: 6px;
+}
+.steps-box h2 {
+    padding: 1em;
+}
+.steps-box img {
+    width: 20%;
+}
+button.buttons-big {
+    width: 20%;
+}
+div.button-box {
+    width: 100%;
+    height: 6em;
+}
+/*about*/
+div.about-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 4em 2em;
+    background-color: grey;
+}
+div.left-box {
+    width: 26%;
+    text-align: center;
+    padding: 4em 2em;
+    padding-right: 4em;
+}
+div.left-box img {
+    width: 40%;
+    height: 2em;
+}
+img.about-pic {
+    width: 34%;
+    height: 34%;
+}
+/*organizations*/
+div.organizations-box {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+div.orgs-box p {
+    width: auto;
+    padding: 1%;
+    display: inline-flex;
+    border: 2px solid dimgray;
+    border-radius: 8px;
+    margin: 1px;
+    margin-top: 2%;
+}
+div.organizations-cell {
+    border-bottom: 1px solid #444444;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    }
+.organizations-cell h4, h5 {
+    text-align: center;
+}
+p.orgs-description {
+    width: 80%;
+    margin: 4% auto;
+}
+.pagination {
+    display: inline-block;
+    margin: 4px auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: lightslategray;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+/*contact*/
+div.contact {
+    background-image: url("https://trello-attachments.s3.amazonaws.com/5c51a5e7dda6f54c2c44d7c6/5c51a5e7dda6f54c2c44d800/1563x956/38756fe9a22713b5515a30d271dc62c8/footer_bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+form {
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+h2.form-title {
+    font-size: 2em;
+    margin: 34% 0;
+    margin-bottom: 6%;
+
+}
+legend.form-legend {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 2% 0;
+    color: #444444;
+}
+input[type=text] {
+    width: 60%;
+    padding: 1em 0;
+    margin: 1em 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    display: inline;
+}
+input::placeholder {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+input[type=email] {
+    width: 60%;
+    display: inline;
+    padding: 1em 0;
+    margin: 1em 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+}
+label {
+    display: inline;
+}
+textarea {
+    padding: 1em 0;
+    margin: 1em 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    width: 60%;
+    resize: none;
+}
+textarea::placeholder {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+input[type=submit] {
+    width: 40%;
+    height: 6%;
+    border-radius: 6px;
+    padding: 4% 6%;
+    border: 1px solid #444444;
+    background: transparent;
+    margin: 4% 0;
+}
+.footer p {
+    position: relative;
+    top: 38em;
+    left: 40%;
+    display: inline-block;
+    padding: 1em;
+}
+.fa-facebook-square, .fa-instagram {
+    position: relative;
+    right: -34em;
+    top: 14em;
+    padding: 0.5em;
+    font-size: 2em;
+}
